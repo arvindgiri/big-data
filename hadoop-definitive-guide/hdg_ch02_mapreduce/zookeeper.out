@@ -1,0 +1,28 @@
+2017-03-20 23:33:58,954 [myid:] - INFO  [main:QuorumPeerConfig@101] - Reading configuration from: /home/arvind/Work/BigData/resources/zookeeper/bin/../conf/zoo.cfg
+2017-03-20 23:33:58,978 [myid:] - INFO  [main:DatadirCleanupManager@78] - autopurge.snapRetainCount set to 3
+2017-03-20 23:33:58,979 [myid:] - INFO  [main:DatadirCleanupManager@79] - autopurge.purgeInterval set to 0
+2017-03-20 23:33:58,979 [myid:] - INFO  [main:DatadirCleanupManager@101] - Purge task is not scheduled.
+2017-03-20 23:33:58,979 [myid:] - WARN  [main:QuorumPeerMain@113] - Either no config or no quorum defined in config, running  in standalone mode
+2017-03-20 23:33:59,032 [myid:] - INFO  [main:QuorumPeerConfig@101] - Reading configuration from: /home/arvind/Work/BigData/resources/zookeeper/bin/../conf/zoo.cfg
+2017-03-20 23:33:59,033 [myid:] - INFO  [main:ZooKeeperServerMain@95] - Starting server
+2017-03-20 23:33:59,048 [myid:] - INFO  [main:Environment@100] - Server environment:zookeeper.version=3.4.5-76--1, built on 11/09/2013 07:24 GMT
+2017-03-20 23:33:59,048 [myid:] - INFO  [main:Environment@100] - Server environment:host.name=arvind-ubuntu
+2017-03-20 23:33:59,049 [myid:] - INFO  [main:Environment@100] - Server environment:java.version=1.8.0_65
+2017-03-20 23:33:59,049 [myid:] - INFO  [main:Environment@100] - Server environment:java.vendor=Oracle Corporation
+2017-03-20 23:33:59,076 [myid:] - INFO  [main:Environment@100] - Server environment:java.home=/usr/lib/jvm/java-8-oracle/jre
+2017-03-20 23:33:59,077 [myid:] - INFO  [main:Environment@100] - Server environment:java.class.path=/home/arvind/Work/BigData/resources/zookeeper/bin/../build/classes:/home/arvind/Work/BigData/resources/zookeeper/bin/../build/lib/*.jar:/home/arvind/Work/BigData/resources/zookeeper/bin/../share/zookeeper/zookeeper-3.4.5.2.0.6.0-76.jar:/home/arvind/Work/BigData/resources/zookeeper/bin/../share/zookeeper/wagon-provider-api-2.4.jar:/home/arvind/Work/BigData/resources/zookeeper/bin/../share/zookeeper/wagon-http-shared4-2.4.jar:/home/arvind/Work/BigData/resources/zookeeper/bin/../share/zookeeper/wagon-http-2.4.jar:/home/arvind/Work/BigData/resources/zookeeper/bin/../share/zookeeper/slf4j-log4j12-1.6.1.jar:/home/arvind/Work/BigData/resources/zookeeper/bin/../share/zookeeper/slf4j-api-1.6.1.jar:/home/arvind/Work/BigData/resources/zookeeper/bin/../share/zookeeper/plexus-utils-3.0.8.jar:/home/arvind/Work/BigData/resources/zookeeper/bin/../share/zookeeper/netty-3.2.2.Final.jar:/home/arvind/Work/BigData/resources/zookeeper/bin/../share/zookeeper/maven-ant-tasks-2.1.3.jar:/home/arvind/Work/BigData/resources/zookeeper/bin/../share/zookeeper/log4j-1.2.15.jar:/home/arvind/Work/BigData/resources/zookeeper/bin/../share/zookeeper/jsoup-1.7.1.jar:/home/arvind/Work/BigData/resources/zookeeper/bin/../share/zookeeper/jline-0.9.94.jar:/home/arvind/Work/BigData/resources/zookeeper/bin/../share/zookeeper/httpcore-4.2.3.jar:/home/arvind/Work/BigData/resources/zookeeper/bin/../share/zookeeper/httpclient-4.2.3.jar:/home/arvind/Work/BigData/resources/zookeeper/bin/../share/zookeeper/commons-logging-1.1.1.jar:/home/arvind/Work/BigData/resources/zookeeper/bin/../share/zookeeper/commons-io-2.2.jar:/home/arvind/Work/BigData/resources/zookeeper/bin/../share/zookeeper/commons-codec-1.6.jar:/home/arvind/Work/BigData/resources/zookeeper/bin/../src/java/lib/*.jar:/home/arvind/Work/BigData/resources/zookeeper/bin/../conf:
+2017-03-20 23:33:59,077 [myid:] - INFO  [main:Environment@100] - Server environment:java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+2017-03-20 23:33:59,078 [myid:] - INFO  [main:Environment@100] - Server environment:java.io.tmpdir=/tmp
+2017-03-20 23:33:59,078 [myid:] - INFO  [main:Environment@100] - Server environment:java.compiler=<NA>
+2017-03-20 23:33:59,078 [myid:] - INFO  [main:Environment@100] - Server environment:os.name=Linux
+2017-03-20 23:33:59,078 [myid:] - INFO  [main:Environment@100] - Server environment:os.arch=amd64
+2017-03-20 23:33:59,079 [myid:] - INFO  [main:Environment@100] - Server environment:os.version=4.8.0-41-generic
+2017-03-20 23:33:59,079 [myid:] - INFO  [main:Environment@100] - Server environment:user.name=arvind
+2017-03-20 23:33:59,079 [myid:] - INFO  [main:Environment@100] - Server environment:user.home=/home/arvind
+2017-03-20 23:33:59,079 [myid:] - INFO  [main:Environment@100] - Server environment:user.dir=/home/arvind/Workspace/github/arvindgiri/big-data/hadoop-definitive-guide/hdg_ch02
+2017-03-20 23:33:59,111 [myid:] - INFO  [main:ZooKeeperServer@726] - tickTime set to 2000
+2017-03-20 23:33:59,112 [myid:] - INFO  [main:ZooKeeperServer@735] - minSessionTimeout set to -1
+2017-03-20 23:33:59,112 [myid:] - INFO  [main:ZooKeeperServer@744] - maxSessionTimeout set to -1
+2017-03-20 23:33:59,147 [myid:] - INFO  [main:NIOServerCnxnFactory@94] - binding to port 0.0.0.0/0.0.0.0:2181
+2017-03-20 23:33:59,191 [myid:] - INFO  [main:FileSnap@83] - Reading snapshot /tmp/zookeeper/version-2/snapshot.0
+2017-03-20 23:33:59,211 [myid:] - INFO  [main:FileTxnSnapLog@240] - Snapshotting: 0x0 to /tmp/zookeeper/version-2/snapshot.0
