@@ -1,0 +1,27 @@
+//Getting started with 'Modern' graph
+graph = TinkerFactory.createModern()
+g = graph.traversal()
+g.V()
+g.V(1)
+g.V(1).values('name')
+g.V(1).outE('knows')
+g.V(1).outE('knows').inV().values('name')
+g.V(1).out('knows').values('name')
+g.V(1).out('knows').has('age', gt(30)).values('name')
+
+
+//Create new graph
+graph = TinkerGraph.open()
+v1 = graph.addVertex(id, 1, label, "person", "name", "marko", "age", 29)
+v2 = graph.addVertex(id, 3, label, "software", "name", "lop", "lang", "java")
+v1.addEdge("created", v2, id, 9, "weight", 0.4)
+
+
+//Traverse graph
+g = graph.traversal()
+g.V().has('name','marko')
+g.V().has('name','marko').outE('created').inV()
+g.V().has('name','marko').out('created').values('name')
+
+
+

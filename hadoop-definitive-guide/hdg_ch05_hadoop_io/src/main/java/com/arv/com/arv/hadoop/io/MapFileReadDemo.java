@@ -3,8 +3,9 @@ package com.arv.com.arv.hadoop.io;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
-import org.apache.hadoop.io.*;
+import org.apache.hadoop.io.IOUtils;
 import org.apache.hadoop.io.SequenceFile.Reader;
+import org.apache.hadoop.io.Writable;
 import org.apache.hadoop.util.ReflectionUtils;
 
 import java.io.InputStream;
@@ -13,7 +14,7 @@ import java.net.URI;
 /**
  * Created by arvind on 5/25/17.
  */
-public class SequenceFileReadDemo {
+public class MapFileReadDemo {
 
     public static void main(String[] args) throws Exception {
         String uri = "hdfs://arvind-ubuntu2:9000/user/arvind/output/hdg_ch05/sequenceFile";
@@ -22,9 +23,9 @@ public class SequenceFileReadDemo {
         Path path = new Path(uri);
         Writable key;
         Writable value;
-        SequenceFile.Reader reader = null;
+        Reader reader = null;
         try {
-            reader = new SequenceFile.Reader(configuration, Reader.file(path));
+            reader = new Reader(configuration, Reader.file(path));
             key = (Writable) ReflectionUtils.newInstance(reader.getKeyClass(), configuration);
             value = (Writable) ReflectionUtils.newInstance(reader.getValueClass(), configuration);
             long position = reader.getPosition();
